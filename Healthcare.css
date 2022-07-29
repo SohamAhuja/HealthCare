@@ -1,0 +1,554 @@
+*{box-sizing:border-box;
+  padding:0;
+margin:0}
+#logo>img{height:100%;
+    width:100%;
+   }
+    #logo{width:16.5%;
+          HEIGHT:18%;
+          float:left}
+#menu{height:18%;
+      width:83.5%;
+      float:right;
+      background-color:#00bcdc;}
+   LI{list-style-type:none;
+         float:left;
+         margin:5% 2%
+         }
+ #nav-container{width:25%;
+                height:100%;
+                float:left;}
+                #phmenu{padding:12% 4%;
+                        font-size:3vh}
+#items{width:75%;
+       float:left;
+      }
+a{text-decoration:none;
+  color:white}
+a:hover{color:black}
+.navitem{width:100%;
+         height:50%;
+         float:left;
+        font-size:1.5vw}
+#surgeon{width:100%;
+         height:90%;
+         background-image:url(pics/doctor.jpg) ;
+         background-size: cover;
+         text-align:center;
+         color:white;
+         font-size:5vw;
+        padding-top:15%
+        
+         }
+         #phone{width:70%;
+                height:90%;
+                background-color:#0499b4;
+                position:absolute;
+                top:10%;
+                left:30%;
+                display:none;
+                TEXT-ALIGN:CENTER;
+                PADDING:5% 0%;
+                FONT-SIZE:2VH;
+                z-index:5;
+         }
+#CHECKMENU{DISPLAY:NONE}
+         #checkmenu:checked + #phone{display:inline}
+         #pic-text{text-align:center;
+                   margin-top:15%;
+                   font-size:7vw;
+                   }
+ #appointment{width:80%;
+              height:50%;
+              background-color:rgb(241, 85, 85);
+              position:relative;
+              bottom:25%;
+              left:10%;
+              border-radius:15px;
+              margin:15px
+                        }                   
+#appoint{width:40%;
+         height:100%;
+         float:left;
+         font-family:PMingLiU-ExtB;
+         color:white;
+         padding:5%
+       }
+#ment{width:60%;
+     height:100%;
+     float:right;
+     margin:8% auto
+     }
+     input,select{
+        width: 45%;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        padding:1%;
+        margin:1%
+
+      }
+      input[type=submit] {
+        width: 45%;
+        background-color:white;
+        color: white;
+        border: none;
+        cursor: pointer;
+        color:red;
+        font-family:PMingLiU-ExtB;
+        
+      }
+      input[type=submit]:hover{background-color:lightgrey}
+      #care{float:left;
+            width:100%;
+            height:90%;
+            position:relative;
+            bottom:35%
+             }
+       #right_care{float:left;
+                   width:65%;
+                  height:100%;
+                  color: #003741;
+                  font-size:1.5vw;
+                  padding:0 0 0 12%;}
+           #right_care > span{font-size:3.3vw;
+            font-family:  Arial;
+            }
+            #emergency > span{font-size:3vw;
+                  font-family:Playbill;}
+            #emergency{background-color:rgba(173, 216, 230,0.5);
+                       height:90%;
+                       width:25%;
+                       float:right;
+                       margin-right:5%;
+                       padding:3%;
+                       font-size:1.6vw}
+      #contacter{width:75%;
+                 height:10%;
+                 margin:5px 0 0 0;
+                 padding:10px;
+                 border-radius:15px;
+                 text-align:center;
+                 background-color:rgb(94, 94, 204);
+            }
+            #contacter:hover{background-color:rgb(181, 71, 71);
+                  cursor:pointer
+                  }
+#trust{width:100%;
+       height:90%;
+      background-color:#0499b4;
+      float:left}
+#truster{width:40%;
+         height:100%;
+         font-size:1.7vw;
+         float:left;
+         padding:5% 5% 0 10%;
+         color:white
+        }
+#truster > span{font-size:3.5vw;
+              font-family:MingLiU-ExtB}
+      #grid{height:80%;
+            width:55%;
+            display:grid;
+      float:left;
+      grid-template-areas: 'handplus brain doctor'
+                 'heart teeth bone';
+            margin:5% 0 5% 3%;
+           grid-column-gap:5px;
+           grid-row-gap:5px;
+           color:#0499b4
+        }
+      #see{width:50%;
+           height:8%;
+           background-color:rgb(204, 60, 60);
+           padding:2% 0 0 3%;
+           border-radius:15px;
+           margin:15px 0 0 0;
+           }
+#see:hover{background-color:rgb(56, 56, 165);
+           cursor:pointer}
+.items{font-size:3.5vw;
+       text-align: center;
+       padding-top:40px;
+       background-color: white;
+
+}
+.items:hover{color:rgb(204, 60, 60);}
+.item1{grid-area:handplus;}
+.item2{grid-area:brain;}
+.item3{grid-area:doctor;}
+.item4{grid-area:heart;}
+.item5{grid-area:teeth;}
+.item6{grid-area:bone;}
+#experts{width:100%;
+         height:100%;
+         float:left;
+      text-align:center;
+      font-size:2vw;
+margin-top:5%;
+color:#08798d;}
+#experts > span{font-size:3vw;
+                font-family: Myanmar Text;}
+      .names{width:30%;
+             height:70%;
+             float:left;
+             margin:1.3%;
+             overflow:hidden}
+.one{margin-left:2.6%;
+       background-image:url(pics/member-1.jpg) ;
+     background-size: cover;}
+.two{ background-image:url(pics/member-2.jpg) ;
+      background-size: cover;}
+.three{ background-image:url(pics/member-3.jpg) ;
+      background-size: cover;}
+.popper{width:100%;
+        height:40%;
+        background-color:rgb(217, 239, 246);
+        position:relative;
+        top:80%;
+        padding:5%;
+        color:#003741
+        
+        }
+.popper > span{color:red;
+               font-size:1.5vw}
+.view{background-color:#003741;
+      border-radius:10px;
+      color:white;
+      width:50%;
+      margin:5% auto
+      }
+.names:hover > .popper{top:70%}
+.view:hover{background-color: #2e5961;
+cursor:pointer}
+#button{height:8%;
+        width:20%;
+        background-color: #0499b4;
+        float:left;
+        margin: 2% 40%;
+        font-size:1.5vw;
+        text-align:center;
+        font-family: Arial;
+        color:white;
+        padding:1%;
+        border-radius:4px;
+        }
+#button:hover{background-color: #003741;
+              cursor:pointer}
+#patients{height:90%;
+          width:100%;
+          float:left}
+#video{width:30%;
+      height:100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image:url(pics/Doc.jpg);
+      margin:0 0 0 7.5%;
+      float:left}
+#reviews{width:55%;
+         height:100%;
+         float:left;
+         background-color: #0499b4;
+         font-size:3vw;
+         color:white;
+         padding:5%;
+         
+         }
+#review-text{width:70%;
+             height:60%;
+             border:3px solid white;
+             font-size:2vw;
+             margin:5%;
+             border-radius:5px;
+             padding:2% 0 0 2%
+             }
+#reviews > span{font-size:1.5vw;
+                margin:0 0 0 5%}
+#banner{width:100%;
+        height:10%;
+        background-color:rgba(0, 0, 0, 0.6);
+       margin-top:120%;
+       padding:4% 0 0 5%;
+       font-size:1.5vw;
+       color:white;
+       font-family: Myanmar Text;
+
+       }
+#play{float:right;
+      height:12%;
+      width:17%;
+      border-radius:50px;
+      background-image:url(pics/play.png);
+      background-size: cover;
+      position:relative;
+      top:81%;
+      animation: pulse-border 1500ms ease-out infinite;
+      cursor:pointer
+}
+@keyframes pulse-border {
+      0% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.7);
+      }
+        
+        70% {
+          transform: scale(1.1);
+          box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+      }
+        
+        100% {
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+      }
+  }
+  #map{width:90%;
+       margin:5%;
+       height:60%;
+       float:left;
+       background-image:url(pics/map1.png);
+       background-size: cover;
+       text-align:center;
+       font-size:4vw;
+      padding:5%;
+      color:#0c2226;
+      }
+#find-locations{width:40%;
+                height:20%;
+                background-color: #003741;
+                margin:0 30%;
+                font-size:2vw;
+                padding:1% 0;
+                color:white;
+                border-radius:15px}
+#find-locations:hover{background-color:rgb(245, 100, 100);
+                      cursor:pointer}
+#blog{float:left;
+      width:100%;
+      height:30%;
+      font-size:2vw;
+      font-family:Impact, 'Arial Narrow Bold', sans-serif;
+      color:#0c2226;
+      text-align:center}
+#blog > span{font-size:3.5vw}
+#flexbox{display:flex;
+         width:100%;
+         height:75%;
+         padding:2% 5%
+         }
+.flex-items{width:25%;
+           height:97.5%;
+           margin:0 auto;
+           background-color:black;
+           border-radius:5px}
+.pic{width:100%;
+     height:60%;
+     float:left;
+     background-repeat: no-repeat;
+     background-size: cover;}
+.text{width:100%;
+      height:40%;
+      float:left;
+      background-color:aquamarine;
+      font-size:2vw;
+      color:#0c2226;
+      padding:2%;
+      font-family:Impact, 'Arial Narrow Bold', sans-serif;
+}
+.text > span{font-size:1vw}
+.blogA{background-image:url(pics/blog-1.jpg);}
+.blogB{background-image:url(pics/blog-2.jpg);}
+.blogC{background-image:url(pics/blog-3.jpg);}
+.text:hover{color:rgb(236, 129, 129);
+            cursor:pointer}
+#Blog-Button{width:30%;
+             height:10%;
+             background-color:#00bcdc;
+             margin:0 35%;
+             text-align: center;
+             float:left;
+             border-radius:15px;
+             font-size:2vw;
+             padding:1.5% 0}
+#blog-Button:hover{background-color: indianred;
+                   cursor: pointer;}
+#footer{width:100%;
+        height:85%;
+        display:flex;
+        background-color:#00BCBD;
+        margin-top:5%;
+        float:left;
+        padding:5% 5%;
+        color:white;
+        font-size:1.7vw;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        flex-wrap: wrap;}
+#flogo{width:34%;
+      height:45%;
+      border-right:1px solid white ;
+      padding:0 5% 0 0
+ }
+#personals{width:43%;
+           height:45%;
+           border-right:1px solid white ;
+           padding:0 3% 0 2%;
+      }
+       
+#social{width:23%;
+      height:45%;
+      padding:0 0 0 2%
+     }
+#rights{width:100%;
+      height:45%;
+      text-align:center;
+      padding:10% 0 0 0;
+font-size: 1vw;
+   }
+#rights > span {margin:0 1%;
+font-size:1.5vw}
+
+
+
+              @media (max-width:1023px)
+
+{#items{display:none}
+
+ #menu{width:50%}
+ #logo{width:30%;
+       HEIGHT:10%
+      }
+
+
+  #MENU{HEIGHT:10%;
+        WIDTH:70%}
+#surgeon{height:33%;
+         padding-top:30%} 
+#nav-container{width:75%;
+               height:100%}
+.navitem{font-size:1.5vh;
+        }
+        #phmenu{
+                width:25%;
+                height:100%;
+                float:left;}
+ #appointment{top:0;
+              left:0;
+              width:93%}
+#appoint{width:100%;height:45%}
+#ment{width:100%;
+      height:55%}
+      #care{bottom:0;
+            height:100%}
+      #right_care{width:100%;
+                  height:65%;
+                 padding:0 7% 0 7%;
+                 font-size:5vw
+            }
+ #right_care > span{font-size:5.5vw;
+ }
+ #yo{font-size:5vw}
+ #emergency{width:90%;
+            height:33%;
+            float:left;
+            margin: 5%;
+            clear:both;
+            font-size:4vw;
+            border-radius:15px}
+            #emergency > span{font-size:6vw;
+                  }    
+      #truster{width:100%;
+               height:55%;
+               font-size:5vw}
+      #truster > span{font-size:7vw}
+      #grid{width:90%;
+           height:40%;
+
+           }
+           #trust{margin-top:40px}
+.names{width:70%;
+       height:27%;
+       margin:15 15%}
+#experts{font-size:3.5vw}
+#experts > span{font-size:5vw}
+#button{height:2%}
+#video{width:100%;
+        height:50%}
+#reviews{width:100%;
+         height:50%;
+         font-size:4vw}
+#patients{height:70%}
+#review-text{font-size:3.5vw}
+#reviews > span{font-size:3vw}
+#video{margin:0
+}
+#banner{margin-top:50%;
+        font-size:4vw;
+       padding:1% 0 0 0}
+#play{width:10%;
+      top:66%
+      }
+#map{height:15%}
+#flexbox{flex-direction: column;
+         padding:0%;
+         height:115%
+        }
+.flex-items{width:80%;
+            height:30%;
+            margin:5 auto
+}
+#blog{height:7%}
+.text{font-size:4vw}
+.text > span{font-size:3vw}
+#Blog-Button{height:3%;
+             border-radius:10px;}
+#footer{flex-direction: column;
+      width:100%;
+      height:130%;
+      padding:5%
+}
+#flogo{width:100%;
+      height:20%;
+      border:none;
+      font-size:5vw;
+      border-bottom:1px solid white
+       }
+       #personals{width:100%;
+            height:20%;
+            border:none;
+            font-size:5vw;
+            border-bottom:1px solid white
+             }      
+             #social{width:100%;
+                  height:20%;
+                  font-size:5vw;
+                  border-bottom:1px solid white
+                   }
+                   #rights{width:100%;
+                        height:29%;
+                        font-size:5vw
+                         }
+#rights>span{font-size:5vw;
+             margin:5% 27%;
+             }
+      
+}
+
+@media (min-width:1024px)
+{#phmenu{display:none;
+         }}
+         @media SCREEN AND (min-width:720pX) AND (max-width:1023PX)
+         {#phmenu{padding:7% 4%}
+          #surgeon{height:40%;
+                   padding-top:25%}
+           #appointment{height:35%;
+                        width:95%}
+         #care{bottom:0;
+               height:140%}
+      #trust{height:130%}
+      #experts{height:140%}
+      #button{height:3%}
+      #patients{height:100%}
+      #map{height:25%}
+      #flexbox{height:155%}
+      #Blog-Button{height:4%;
+            border-radius:10px;}
+      #footer{height:160%}
+           }
