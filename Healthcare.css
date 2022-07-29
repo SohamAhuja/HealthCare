@@ -462,11 +462,14 @@ font-size:1.5vw}
            height:40%;
 
            }
-           #trust{margin-top:40px}
+           #trust{margin-top:40px;
+                  height:120%}
 .names{width:70%;
        height:27%;
        margin:15 15%}
-#experts{font-size:3.5vw}
+#experts{font-size:3.5vw; 
+         height:130%
+}
 #experts > span{font-size:5vw}
 #button{height:2%}
 #video{width:100%;
@@ -526,7 +529,7 @@ font-size:1.5vw}
                         font-size:5vw
                          }
 #rights>span{font-size:5vw;
-             margin:5% 27%;
+             margin:5% 30%;
              }
 
       
